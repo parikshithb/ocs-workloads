@@ -1,0 +1,7 @@
+resources:
+- busybox-dc-81.yaml
+- busybox-pvc-81.yaml
+- busybox-dc-82.yaml
+- busybox-pvc-82.yaml
+- busybox-dc-83.yaml
+- busybox-pvc-83.yaml
