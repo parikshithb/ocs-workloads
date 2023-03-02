@@ -6,7 +6,7 @@ metadata:
   labels:
     app: busybox-sample
 spec:
-  preferredCluster: "pbyregow-f9-c1"
+  preferredCluster: "pbyregow-mar1-c1"
   drPolicyRef:
     name: odr-policy	
   placementRef:
