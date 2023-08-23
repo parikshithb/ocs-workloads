@@ -7,13 +7,13 @@ metadata:
 spec:
   selector:
     matchLabels:
-      workload: busybox-rbd
+      workload: appset-busybox-2
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
-        workload: busybox-rbd
+        workload: appset-busybox-2
     spec:
       containers:
       - command: ["/bin/sh", "-c"]
