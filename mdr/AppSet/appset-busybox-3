@@ -19,11 +19,11 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/red-hat-storage/ocs-workloads.git
+        repoURL: https://github.com/parikshithb/ocs-workloads.git
         targetRevision: master
-        path: rdr/busybox/app-busybox-3/resources/deployment
+        path: mdr/subscriptions/busybox-app-3/resources/deployment
       destination:
-        namespace: appset-busybox-3
+        namespace: appset-busybox-2
         server: "{{server}}"
       syncPolicy:
         automated:
