@@ -23,7 +23,7 @@ spec:
         targetRevision: master
         path: mdr/subscriptions/busybox-app-2/resources/deployment
       destination:
-        namespace: appset-busybox-2
+        namespace: appset-busybox-22
         server: "{{server}}"
       syncPolicy:
         automated:
