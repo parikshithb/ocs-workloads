@@ -2,7 +2,7 @@
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
-  name: sample-vm
+  name: vm-workload-1
 spec:
   running: true
   template:
@@ -56,7 +56,7 @@ spec:
       volumes:
         - name: rootdisk
           persistentVolumeClaim:
-            claimName: sample-vm-pvc
+            claimName: vm-1-pvc
         - name: cloudinit
           cloudInitConfigDrive:
             userData: |
