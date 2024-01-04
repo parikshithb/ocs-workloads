@@ -59,7 +59,7 @@ kind: Placement
 metadata:
   labels:
     app: cnv-sub-1
-  name: cnv-sub-1-placement-1
+  name: cnv-sub-1-placement
   namespace: cnv-sub-1
 spec:
   predicates:
