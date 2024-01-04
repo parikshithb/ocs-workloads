@@ -52,7 +52,7 @@ spec:
   placement:
     placementRef:
       kind: Placement
-      name: cnv-sub-1-placement-1
+      name: cnv-sub-1-placement
 ---
 apiVersion: cluster.open-cluster-management.io/v1beta1
 kind: Placement
