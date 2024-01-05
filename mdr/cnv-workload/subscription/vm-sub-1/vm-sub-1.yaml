@@ -11,6 +11,7 @@ metadata:
 spec:
   type: GitHub
   pathname: PLACEHOLDER
+---
 apiVersion: v1                    
 kind: Namespace
 metadata:
@@ -66,6 +67,6 @@ spec:
             - key: 'name'
               operator: 'In'
               values: 
-                - 'PLACEHOLDER'
+                - PLACEHOLDER
   clusterSets:
     - global
