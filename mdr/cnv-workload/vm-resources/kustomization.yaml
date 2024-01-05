@@ -5,5 +5,9 @@ resources:
   - vm-workload-1.yaml
 commonLabels:
   appname: kubevirt
+secretGenerator:
+- name: my-public-key
+  files:
+  - test_rsa.pub
 generatorOptions:
   disableNameSuffixHash: true
