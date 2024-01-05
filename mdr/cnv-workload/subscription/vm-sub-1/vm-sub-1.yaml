@@ -52,6 +52,14 @@ spec:
       kind: Placement
       name: vm-sub-1-placement
 ---
+apiVersion: cluster.open-cluster-management.io/v1beta2
+kind: ManagedClusterSetBinding
+metadata:
+  name: global
+  namespace: vm-sub-1
+spec:
+  clusterSet: global
+---
 apiVersion: cluster.open-cluster-management.io/v1beta1
 kind: Placement
 metadata:
