@@ -21,7 +21,7 @@ spec:
       source:
         repoURL: https://github.com/parikshithb/ocs-workloads
         targetRevision: master
-        path: mdr/cnv-workload/vm-resources/
+        path: mdr/cnv-workload/vm-resources
       destination:
         namespace: vm-appset-1
         server: "{{server}}"
