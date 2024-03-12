@@ -39,7 +39,7 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: cnv-workload
-    apps.open-cluster-management.io/git-path: mdr/cnv-workload/vm-resources
+    apps.open-cluster-management.io/git-path: mdr/cnv-workload/official_vm
     apps.open-cluster-management.io/reconcile-option: merge
   labels:
     app: vm-sub-1
