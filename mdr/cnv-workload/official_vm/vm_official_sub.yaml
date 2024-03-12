@@ -3,7 +3,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: dr-vm-disk
-  namespace: default
+  namespace: vm-sub-1
   labels:
     drapp: dr-vm
 spec:
@@ -35,7 +35,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: dr-vm
-  namespace: default
+  namespace: vm-sub-1
   labels:
     drapp: dr-vm
 spec:
